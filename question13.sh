@@ -1,11 +1,11 @@
 #!/bin/bash
 cd /root/zxy
 git checkout -b branch3
-git rm /root/zxy/*.sh
+git rm *.sh
 
-touch /root/zxy/file13.txt
+touch file13.txt
 
-git add /root/zxy/file13.txt
+git add file13.txt
 
 git commit -m "add file13.txt to branch3"
 
