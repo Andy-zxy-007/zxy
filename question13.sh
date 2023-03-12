@@ -1,16 +1,9 @@
 #!/bin/bash
-cd git-practice-02
-
-git checkout branch2
-git pull origin branch2
-
-git merge branch3
-
-git add .
-
-git commit -m "Merged branch3 into branch2"
-
-git branch -d branch3
-
-git push origin branch2
-
+cd /root/zxy
+git checkout -b branch3
+git rm *.sh
+git commit -m "Removing *.sh files"
+touch file13.txt
+git add file13.txt
+git commit -m "add file13.txt to branch3"
+git push -u origin branch3
