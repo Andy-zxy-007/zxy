@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /root/zxy
 git checkout branch2
-git restore file4
-git commit -am "modify file4 to branch2"
-
+git restore .
+git add .
+git commit -m "Restored uncommitted changes from branch2"
