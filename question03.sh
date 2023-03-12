@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /root/zxy
+git checkout dev1
+touch file3.txt
+git add file3.txt
