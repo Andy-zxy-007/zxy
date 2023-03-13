@@ -1,11 +1,13 @@
 #!/bin/bash
 git branch branch1
 git checkout branch1
+cp dir1/dir2/foo  dir1/
 rm -rf dir1/dir2/
 rm -rf dir3/bar_copy
 touch newfile1
 git add .
 git commit -m 'Modified file structure to match branch1 configuration'
+
 git checkout main
 git branch branch2
 git checkout branch2
